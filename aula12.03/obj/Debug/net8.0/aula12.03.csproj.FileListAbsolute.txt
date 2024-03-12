@@ -1,0 +1,15 @@
+C:\_ws\AulaTs\aula12.03\bin\Debug\net8.0\aula12.03.exe
+C:\_ws\AulaTs\aula12.03\bin\Debug\net8.0\aula12.03.deps.json
+C:\_ws\AulaTs\aula12.03\bin\Debug\net8.0\aula12.03.runtimeconfig.json
+C:\_ws\AulaTs\aula12.03\bin\Debug\net8.0\aula12.03.dll
+C:\_ws\AulaTs\aula12.03\bin\Debug\net8.0\aula12.03.pdb
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.GeneratedMSBuildEditorConfig.editorconfig
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.AssemblyInfoInputs.cache
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.AssemblyInfo.cs
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.csproj.CoreCompileInputs.cache
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.sourcelink.json
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.dll
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\refint\aula12.03.dll
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.pdb
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\aula12.03.genruntimeconfig.cache
+C:\_ws\AulaTs\aula12.03\obj\Debug\net8.0\ref\aula12.03.dll
