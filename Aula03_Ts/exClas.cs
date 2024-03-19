@@ -14,26 +14,88 @@
 
 
 
-        static void Exemplo()
+        static void Exemplo01()
         {
 
-            Console.WriteLine("Digite o nome do aluno");
-            string nome = Console.ReadLine();
+           // string matricula;
+        // string nome;
+        // double nota1;
+        // double nota2;
 
-            Console.WriteLine("Digite a nota 1 do aluno");
-            double nota1 = Convert.ToDouble(Console.ReadLine());
+        Aluno objetoQualquer = new Aluno("Ana");
+        objetoQualquer.matricula = "123";
+        //objetoQualquer.nome = "Ana";
 
-            Console.WriteLine("Digite a nota 2 do aluno");
-            double nota2 = Convert.ToDouble(Console.ReadLine());
+        Aluno outroObjeto = new Aluno("321", "Pedro");
+        //outroObjeto.matricula = "321";
+        //outroObjeto.nome = "Pedro";
 
-            Console.WriteLine("Nome: " + nome);
-            Console.WriteLine("Nota: " + nota1);
-            Console.WriteLine("Nota: " + nota2);
+        Aluno maisUmObjeto = new Aluno();
 
-            Console.WriteLine("Soma: " + Calculadora.Somar(nota1, nota2));
-            Console.WriteLine("Subtrair: " + Calculadora.Subtrair(nota1, nota2));
-            Console.WriteLine("Multiplicacao: " + Calculadora.Multiplicar(nota1, nota2));
-            Console.WriteLine("Dividir: " + Calculadora.Dividir(nota1, nota2));
+        // Console.WriteLine("Nome 1: " + objetoQualquer.nome);
+        // Console.WriteLine("Nome 2: " + outroObjeto.nome);
+        // Console.WriteLine("Nome 3: " + maisUmObjeto.nome);
+
+        // Console.WriteLine(objetoQualquer);
+        // Console.WriteLine(outroObjeto);
+        // Console.WriteLine(maisUmObjeto);
+
+
+        // double[] vetor1 = new double[5];
+        // double[] vetor2 = {0,05,6,7};
+        // var vetor3 = new double[] {2, 5, 6};
+
+        // //Vetor de 4 alunos
+        // Aluno[] alunos = new Aluno[4];
+        // alunos[0] = objetoQualquer;
+        // alunos[1] = outroObjeto;
+        // alunos[2] = maisUmObjeto;
+        // alunos[3] = new Aluno();
+
+        // //6 alunos (+2)?
+        // Aluno[] alunos2 = new Aluno[6];
+        // alunos2[0] = alunos[0];
+        // alunos2[1] = alunos[1];
+        // alunos2[2] = alunos[2];
+        // alunos2[3] = alunos[3];
+        // alunos2[4] = new Aluno();
+        // alunos2[5] = new Aluno();
+
+
+        // Aluno[] alunos = new Aluno[4]; criação de vetor
+        // Criação de uma lista dinâmica.
+        List<Aluno> alunos = new List<Aluno>();
+        alunos.Add(objetoQualquer);
+        alunos.Add(outroObjeto);
+        alunos.Add(maisUmObjeto);
+        alunos.Add(new Aluno());
+
+        foreach (Aluno aluno in alunos)
+        {
+            Console.WriteLine(aluno);
+        }
+
+        static void Exemplo02()
+        {
+        Console.WriteLine("Digite o nome do aluno");
+        string nome = Console.ReadLine();
+
+        Console.WriteLine("Digite a nota 1 do aluno");
+        double nota1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Digite a nota 2 do aluno");
+        double nota2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Nome: " + nome);
+        Console.WriteLine("Nota: " + nota1);
+        Console.WriteLine("Nota: " + nota2);
+
+        Console.WriteLine("Soma: " + Calculadora.Somar(nota1, nota2));
+        Console.WriteLine("Subtração: " + Calculadora.Subtrair(nota1, nota2));
+        Console.WriteLine("Multiplicação: " + Calculadora.Multiplicar(nota1, nota2));
+        Console.WriteLine("Divisão: " + Calculadora.Dividir(nota1, nota2));
+
+        }
 
         }
         /*
